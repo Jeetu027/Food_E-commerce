@@ -1,9 +1,9 @@
 import React from "react";
-import SliderCard from "../../Ui/SliderCard/SliderCard";
+import SliderCard from "../../Ui/Card/SliderCard";
 
 const Slider = () => {
   return (
-    <div className="flex justify-center items-center py-10">
+    <div className="flex justify-center items-center pt-10">
       <SliderCard />
     </div>
   );
