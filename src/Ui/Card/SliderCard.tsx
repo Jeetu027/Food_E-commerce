@@ -1,3 +1,4 @@
+import CookProfile from "../Profile/CookProfile";
 import RoundedButton from "../RoundedButton/RoundedButton";
 import { Timer } from "../Svg/MySvg";
 import { ForkKnife } from "../Svg/MySvg";
@@ -34,20 +35,11 @@ const SliderCard = () => {
           </div>
         </div>
         <div className="flex ">
-          <div className="flex">
-            <div>
-              <img
-                className="w-[50px] h-[50px] rounded-4xl"
-                src="/public/profile.jpg"
-                alt="img"
-              />
-            </div>
-            <div className="ml-4">
-              <span className="font-bold text-4">John Smith</span>
-              <br />
-              27 aug 2004
-            </div>
-          </div>
+          <CookProfile
+            img="/public/profile.jpg"
+            name="Jeet Barbhaya"
+            date="27 aug 2004"
+          />
           <div>
             <RoundedButton
               img={<PlayBtn />}

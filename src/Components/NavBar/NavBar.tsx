@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FaceBook, Instagram, Logo, Twitter } from "../../Ui/Svg/MySvg";
 
 const NavBar = () => {
@@ -8,7 +9,7 @@ const NavBar = () => {
     },
     {
       name: "Recipe",
-      url: "",
+      url: "recipe",
     },
     {
       name: "Blog",
@@ -45,7 +46,11 @@ const NavBar = () => {
       </div>
       <div className="flex gap-15">
         {navItems.map((item) => {
-          return <div className="font-medium text-[16px]">{item.name}</div>;
+          return (
+            <Link to={item.url} className="font-medium text-[16px]">
+              {item.name}
+            </Link>
+          );
         })}
       </div>
       <div className="flex gap-10">

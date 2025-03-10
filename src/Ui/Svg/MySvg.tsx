@@ -7,3 +7,5 @@ export { default as ForkKnife } from "../../assets/forkknife.svg";
 export { default as PlayBtn } from "../../assets/PlayCircle.svg";
 export { default as Like } from "../../assets/like.svg";
 export { default as UnLike } from "../../assets/unlike.svg";
+export { default as Printer } from "../../assets/printer.svg";
+export { default as Share } from "../../assets/share.svg";
