@@ -3,7 +3,7 @@ import { CookProfileType } from "../../Types/Profile.types";
 
 const CookProfile = (props: CookProfileType) => {
   return (
-    <div className="flex">
+    <div className="flex  ">
       <div>
         {props.img && (
           <div className="flex items-center justify-center h-[50px] w-[50px]">

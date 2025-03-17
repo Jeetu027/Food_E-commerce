@@ -40,7 +40,7 @@ const NavBar = () => {
     },
   ];
   return (
-    <div className="flex justify-between items-center p-10 mx-10 border-b border-black/10">
+    <div className="sticky top-0 z-1000 flex justify-between items-center p-10 mx-10 border-b border-black/10 bg-white">
       <div>
         <Logo />
       </div>
