@@ -1,4 +1,3 @@
-import React from "react";
 import RecipeInfo from "../../Components/Recipe/RecipeInfo";
 import IngredientsList from "../../Components/Ingredients/IngredientsList";
 
